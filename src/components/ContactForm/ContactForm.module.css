@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px;
+  gap: 10px;
+  border: 4px solid black;
+  border-radius: 18px;
+  width: 350px;
+}
+.formList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+.inputList {
+  padding: 4px 5px;
+  border-radius: 18px;
+  border: none;
+  color: black;
+  font-weight: normal;
+}
+.error {
+  color: red;
+  font-weight: bolder;
+}
+.addButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #687dd8;
+  font-weight: bold;
+}
+.addButton:hover,
+.addButton:focus {
+  transition: border-color 0.25s;
+  border-color: black;
+}

@@ -1,0 +1,31 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerList {
+  display: flex;
+  flex-direction: column;
+}
+.contactInfo {
+  display: flex;
+  gap: 5px;
+  font-weight: bold;
+}
+.icon {
+  color: black;
+}
+.deleteBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: #687dd8;
+  font-weight: bold;
+}
+.deleteBtn:hover,
+.deleteBtn:focus {
+  transition: border-color 0.25s;
+  border-color: black;
+}

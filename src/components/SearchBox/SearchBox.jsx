@@ -10,7 +10,7 @@ const SearchBox = () => {
       <input
         className={s.search}
         type="text"
-        onChange={(event) => dispatch(selectFilter(event.target.value))}
+        onChange={(e) => dispatch(selectFilter(e.target.value))}
         placeholder="Enter a name for your search!"
       />
     </div>
